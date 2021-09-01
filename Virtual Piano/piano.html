@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script_piano.js"></script>
+
+</head>
+<body>
+    <div id="pia">
+        <button id="C4" class="key white" onClick="playAll(this.id)">C</button>
+        <button id="Db4" class="key black" onClick="playAll(this.id)">C#</button>
+        <button id="D4" class="key white" onClick="playAll(this.id)">D</button>
+        <button id="Eb4" class="key black" onClick="playAll(this.id)">D#</button>
+        <button id="E4" class="key white" onClick="playAll(this.id)">E</button>
+        <button id="F4" class="key white" onClick="playAll(this.id)">F</button>
+        <button id="Gb4" class="key black" onClick="playAll(this.id)">F#</button>
+        <button id="G4" class="key white" onClick="playAll(this.id)">G</button>
+        <button id="Ab4" class="key black" onClick="playAll(this.id)">G#</button>
+        <button id="A4" class="key white" onClick="playAll(this.id)">A</button>
+        <button id="Bb4" class="key black" onClick="playAll(this.id)">A#</button>
+        <button id="B4" class="key white" onClick="playAll(this.id)">B</button>
+        <button id="C5" class="key white" onClick="playAll(this.id)">C</button>
+        <button id="Db5" class="key black" onClick="playAll(this.id)">C#</button>
+        <button id="D5" class="key white" onClick="playAll(this.id)">D</button>
+        <button id="Eb5" class="key black" onClick="playAll(this.id)">D#</button>
+        <button id="E5" class="key white" onClick="playAll(this.id)">E</button>
+    </div>
+
+    <div>
+        <br>
+        <button id="theme" onclick = "change()">Change Theme</button>
+    </div>
+
+    <audio id="C4aud" src="sounds\C4.mp3"></audio>
+    <audio id="Db4aud" src="sounds/Db4.mp3"></audio>
+    <audio id="D4aud" src="sounds/D4.mp3"></audio>
+    <audio id="Eb4aud" src="sounds/Eb4.mp3"></audio>
+    <audio id="E4aud" src="sounds/E4.mp3"></audio>
+    <audio id="F4aud" src="sounds/F4.mp3"></audio>
+    <audio id="Gb4aud" src="sounds/Gb4.mp3"></audio>
+    <audio id="G4aud" src="sounds/G4.mp3"></audio>
+    <audio id="Ab4aud" src="sounds/Ab4.mp3"></audio>
+    <audio id="A4aud" src="sounds/A4.mp3"></audio>
+    <audio id="Bb4aud" src="sounds/Bb4.mp3"></audio>
+    <audio id="B4aud" src="sounds/B4.mp3"></audio>
+    <audio id="C5aud" src="sounds/C5.mp3"></audio>
+    <audio id="Db5aud" src="sounds/Db5.mp3"></audio>
+    <audio id="D5aud" src="sounds/D5.mp3"></audio>
+    <audio id="Eb5aud" src="sounds/Eb5.mp3"></audio>
+    <audio id="E5aud" src="sounds/E5.mp3"></audio>
+</body>
+</html>
+
